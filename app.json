@@ -23,19 +23,19 @@
          "value": ""
       },    
       "LOG_QRUP": {
-         "description": "log grubun id",
+         "description": "log grubun id si",
          "value": ""
       },
       "USERNAME": {
-         "description": "Botun kullanıcı adı yazınız @ işarəsi olmadan",
+         "description": "Botun kullanıcı adı yazınız @ işareti olmadan",
          "value": ""
       },
       "sahib": {
-         "description": "Kendi kullanıcı adınızı yazınız @ işarəsi olmadan",
+         "description": "Kendi kullanıcı adınızı yazınız @ işareti olmadan",
          "value": "mutsuz_panda"
       },      
       "support": {
-         "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işarəsi olmadan yazın",
+         "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işareti olmadan yazın",
          "value": "Richard_Ramirezzblog"
       },
       "startmesaj": {
