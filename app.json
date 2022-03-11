@@ -1,0 +1,64 @@
+{
+      "name": "Tagger bot",
+      "description": "Gece kuşu tagger",
+      "keywords": [
+         "telegram",
+         "tagger",
+         "group",
+         "mutsuz_panda",
+         "Richard_Ramirezzblog"
+      ],   
+   "repository": "https://github.com/Gecekus/tagv6",
+   "env": {
+      "TOKEN": {
+         "description": "Botunuzun tokenini bura yazın",
+         "value": ""
+      },
+      "APP_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "my.telegram.org adresindən API HASH alın",
+         "value": ""
+      },    
+      "LOG_QRUP": {
+         "description": "log grubun id",
+         "value": "-1001682964939"
+      },
+      "USERNAME": {
+         "description": "Botun kullanıcı adı yazınız @ işarəsi olmadan",
+         "value": "mutsuz_panda"
+      },
+      "sahib": {
+         "description": "Kendi kullanıcı adınızı yazınız @ işarəsi olmadan",
+         "value": "mutsuz_panda"
+      },      
+      "support": {
+         "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işarəsi olmadan yazın",
+         "value": "mutsuz_panda"
+      },
+      "startmesaj": {
+         "description": "Bota start verilince mesajınız",
+         "value": "**Merhaba** __Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★__"
+      },
+      "qrupstart": {
+         "description": "Grupta start verildiği zaman mesajınız",
+         "value": "✅ **Ben şuan aktif olarak çalışmaktayım !** 🕊️ **Komutları görmek için pm den bakabilirsin**"
+      },
+      "komutlar": {
+         "description": "Yardım menüsü",
+         "value": "Yardım Menüsüne Hoşgeldin 🗽
+/utag <Mesajınız> - kullanıcıları etiketlerim
+/atag <Mesajınız> - Sadece yöneticileri etiketlerim
+/tektag <Mesajınız> - kullanıcıları tek tek etiketlerim
+/etag  <Mesajınız> - Kullanıcıları emoji ile etiketlerim 
+/stag <Mesajınız> - Kullanıcıları manalı sözler ile etiketlerim
+/rtag  <Mesajınız> - Kullanıcıları renkler le etiketlerim
+/cancel - Etiket işlemini iptal ederim.
+❕ Yalnızca yöneticileri bu komutları kullanabilir. ✨"
+      }
+
+      
+    } 
+ }
