@@ -48,16 +48,8 @@
       },
       "komutlar": {
          "description": "Yardım menüsü",
-         "value": "Yardım Menüsüne Hoşgeldin 🗽
-/utag <Mesajınız> - kullanıcıları etiketlerim
-/atag <Mesajınız> - Sadece yöneticileri etiketlerim
-/tektag <Mesajınız> - kullanıcıları tek tek etiketlerim
-/etag  <Mesajınız> - Kullanıcıları emoji ile etiketlerim 
-/stag <Mesajınız> - Kullanıcıları manalı sözler ile etiketlerim
-/rtag  <Mesajınız> - Kullanıcıları renkler le etiketlerim
-/cancel - Etiket işlemini iptal ederim.
-❕ Yalnızca yöneticileri bu komutları kullanabilir. ✨"
-     }
+         "value": ""
+      }
      
    }
  }
