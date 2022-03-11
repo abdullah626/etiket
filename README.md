@@ -11,6 +11,6 @@ _**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kad
 
 
 ### 🎯 Krediler ve Diğer
-- Bu Proje için [#Ge͂̂͝c̨͒ͤ̕͜e̡͝ k̶̴̛ͮ͌̒̃͟͡uş̟̲͎u̼͓̭̝ͦ̂͋̈̋̔](https://t.me/mutsuz_panda) ;)
+- Bu Proje için Ben [#Ge͂̂͝c̨͒ͤ̕͜e̡͝ k̶̴̛ͮ͌̒̃͟͡uş̟̲͎u̼͓̭̝ͦ̂͋̈̋̔](https://t.me/mutsuz_panda) ;)
 
 **Beni Github'dan takip etmeyi unutmayın ✌️**
