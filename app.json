@@ -21,13 +21,13 @@
       "API_HASH": {
          "description": "my.telegram.org adresindən API HASH alın",
          "value": ""
-      },    
-      "LOG_QRUP": {
-         "description": "log grubun id",
-         "value": ""
       },
       "USERNAME": {
          "description": "Botun kullanıcı adı yazınız @ işarəsi olmadan",
+         "value": ""
+      },    
+      "LOG_QRUP": {
+         "description": "log grubun id",
          "value": ""
       },
       "sahib": {
