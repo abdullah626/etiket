@@ -1,6 +1,6 @@
 {
-      "name": "Tagger bot",
-      "description": "Gece kuşu tagger",
+      "name": "Mentionall",
+      "description": "Telegram için tagger bot",
       "keywords": [
          "telegram",
          "tagger",
@@ -8,7 +8,7 @@
          "mutsuz_panda",
          "Richard_Ramirezzblog"
       ],   
-   "repository": "https://github.com/Gecekus/tagv6",
+   "repository": "https://github.com/amahocam/mentionall",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
@@ -24,11 +24,11 @@
       },    
       "LOG_QRUP": {
          "description": "log grubun id",
-         "value": "-1001682964939"
+         "value": ""
       },
       "USERNAME": {
          "description": "Botun kullanıcı adı yazınız @ işarəsi olmadan",
-         "value": "mutsuz_panda"
+         "value": ""
       },
       "sahib": {
          "description": "Kendi kullanıcı adınızı yazınız @ işarəsi olmadan",
@@ -36,7 +36,7 @@
       },      
       "support": {
          "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işarəsi olmadan yazın",
-         "value": "mutsuz_panda"
+         "value": "Richard_Ramirezzblog"
       },
       "startmesaj": {
          "description": "Bota start verilince mesajınız",
