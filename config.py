@@ -2,8 +2,8 @@ import os
 import heroku3
 from telethon import TelegramClient, events
 #
-# Buranı qurdalama
-# Yalnız deploy buttonuyla botunu yarat
+# Burayı gurcalama
+# 
 # 
 api_id = int(os.environ.get("APP_ID"))
 api_hash = os.environ.get("API_HASH")
