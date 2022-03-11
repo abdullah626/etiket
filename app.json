@@ -8,7 +8,7 @@
          "mutsuz_panda",
          "Richard_Ramirezzblog"
       ],   
-   "repository": "https://github.com/Gecekus/tagv6",
+   "repository": "https://github.com/amahocam/mentionall",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
