@@ -48,7 +48,7 @@
       },
       "komutlar": {
          "description": "Yardım menüsü",
-         "value": "Yardım Menüsüne Hoşgeldin 🗽\n/utag <Mesajınız> - kullanıcıları etiketlerim\n/atag <Mesajınız> - Sadece yöneticileri etiketlerim\n/tektag <Mesajınız> - kullanıcıları tek tek etiketlerim\n/etag  <Mesajınız> - Kullanıcıları emoji ile etiketlerim\n/stag <Mesajınız> - Kullanıcıları manalı sözler ile etiketlerim\n/rtag  <Mesajınız> - Kullanıcıları renkler le etiketlerim\n/cancel - Etiket işlemini iptal ederim.\n❕ Yalnızca yöneticileri bu komutları kullanabilir. ✨"
+         "value": "Yardım Menüsüne Hoşgeldin 🗽\n/utag <Mesajınız> - kullanıcıları 5 li etiketlerim\n/atag <Mesajınız> - Sadece yöneticileri etiketlerim\n/tektag <Mesajınız> - kullanıcıları tek tek etiketlerim\n/etag  <Mesajınız> - Kullanıcıları emoji ile etiketlerim\n/stag <Mesajınız> - Kullanıcıları manalı sözler ile etiketlerim\n/rtag  <Mesajınız> - Kullanıcıları renkler le etiketlerim\n/cancel - Etiket işlemini iptal ederim.\n❕ Yalnızca yöneticileri bu komutları kullanabilir. ✨"
       }
      
    }
