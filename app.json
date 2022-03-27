@@ -32,11 +32,11 @@
       },
       "sahib": {
          "description": "Kendi kullanıcı adınızı yazınız @ işareti olmadan",
-         "value": "mutsuz_panda"
+         "value": "ByWolk"
       },      
       "support": {
          "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işareti olmadan yazın",
-         "value": "Richard_Ramirezzblog"
+         "value": "StarBotKanal"
       },
       "startmesaj": {
          "description": "Bota start verilince mesajınız",
@@ -44,11 +44,11 @@
       },
       "qrupstart": {
          "description": "Grupta start verildiği zaman mesajınız",
-         "value": "✅ **Ben şuan aktif olarak çalışmaktayım !** 🕊️ **Komutları görmek için pm den bakabilirsin**"
+         "value": "• 𝖲𝗎𝖺𝗇 𝖠𝗄𝗍𝗂𝖿 𝖢𝖺𝗅𝗂𝗌𝗆𝖺𝗄𝗍𝖺𝗒𝗂𝗆 . . .\n\n • 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋𝗂 𝖦𝗈𝗋𝗆𝖾𝗄 𝗂𝖼𝗂𝗇 𝖡𝗈𝗍𝗎𝗇 𝗂𝖼𝖾𝗋𝗂𝗌𝗂𝗇𝖾 𝗀𝗂𝗋𝗂𝗉 𝖻𝖺𝗌𝗅𝖺𝗍𝗂𝗇 . . ."
       },
       "komutlar": {
          "description": "Yardım menüsü",
-         "value": "Yardım Menüsüne Hoşgeldin 🗽\n/utag <Mesajınız> - kullanıcıları 5 li etiketlerim\n/atag <Mesajınız> - Sadece yöneticileri etiketlerim\n/tektag <Mesajınız> - kullanıcıları tek tek etiketlerim\n/etag  <Mesajınız> - Kullanıcıları emoji ile etiketlerim\n/stag <Mesajınız> - Kullanıcıları manalı sözler ile etiketlerim\n/rtag  <Mesajınız> - Kullanıcıları renkler le etiketlerim\n/cancel - Etiket işlemini iptal ederim.\n❕ Yalnızca yöneticileri bu komutları kullanabilir. ✨"
+         "value": "🇹🇷 𝖳𝗎𝗆 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋 ; \n\n » /utag   <  𝗆𝖾𝗌𝖺𝗃  > \n  - 𝖴𝗒𝖾𝗅𝖾𝗋𝗂 5'𝗅𝗂 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗋 . \n\n » /tag   <  𝗆𝖾𝗌𝖺𝗃  > \n  - 𝖴𝗒𝖾𝗅𝖾𝗋𝗂 𝗍𝖾𝗄 𝗍𝖾𝗄 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗋 . \n\n » /atag   <  𝗆𝖾𝗌𝖺𝗃  > \n  - 𝖸𝗈𝗇𝖾𝗍𝗂𝖼𝗂𝗅𝖾𝗋𝗂 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗋 . \n\n » /etag   <  𝗆𝖾𝗌𝖺𝗃  > \n  - 𝖴𝗒𝖾𝗅𝖾𝗋𝗂 𝖾𝗆𝗈𝗃𝗂 𝗂𝗅𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗋 . \n\n » /stag   <  𝗆𝖾𝗌𝖺𝗃  > \n  - 𝖴𝗒𝖾𝗅𝖾𝗋𝗂 𝗀𝗎𝗓𝖾𝗅 𝗌𝗈𝗓𝗅𝖾𝗋𝗅𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗋 . \n\n » /cancel => \n  - 𝖤𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂𝗇𝗂 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗋"
       }
      
    }
