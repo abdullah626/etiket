@@ -309,7 +309,7 @@ async def etag(event):
     usrtxt = ""
     async for usr in client.iter_participants(event.chat_id):
       usrnum += 1
-      usrtxt += f"• [{random.choice(emoji)}](tg://user?id={usr.id}) "
+      usrtxt += f"[{random.choice(emoji)}](tg://user?id={usr.id}) , "
       if event.chat_id not in gece_tag:
         await event.respond("⛔ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 .",
                     buttons=(
