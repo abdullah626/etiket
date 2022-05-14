@@ -479,7 +479,7 @@ async def rtag(event):
     usrnum = 0
     usrtxt = ""
     async for usr in client.iter_participants(event.chat_id):
-      usrnum += 1
+      usrnum += 2
       usrtxt += f"[{random.choice(renk)}](tg://user?id={usr.id}) "
       if event.chat_id not in gece_tag:
         await event.respond("⛔ 𝖴𝗒𝖾 𝖾𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 .",
@@ -491,7 +491,7 @@ async def rtag(event):
                   )
         return
       if usrnum == 5:
-        await client.send_message(event.chat_id, f"{usrtxt}")
+        await client.send_message(event.chat_id, f"{usrtxt} \n {msg}")
         await asyncio.sleep(2)
         usrnum = 0
         usrtxt = ""
