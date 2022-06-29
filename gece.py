@@ -154,7 +154,7 @@ def main():
 #########################
 
 # tek tek etiketleme modülü
-@client.on(events.NewMessage(pattern="^/tektag ?(.*)"))
+@client.on(events.NewMessage(pattern="^/tag ?(.*)"))
 async def tektag(event):
   global gece_tag
   if event.is_private:
