@@ -84,7 +84,7 @@ async def taglar(event):
                     link_preview=False)
 
 @client.on(events.callbackquery.CallbackQuery(data="utag"))
-async def mentionall(event):
+async def handler(event):
   global gece_tag
   if event.is_private:
     return await event.respond(f"{noqrup}")
