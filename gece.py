@@ -73,6 +73,71 @@ async def handler(event):
                     ),
                     link_preview=False)
 
+
+@client.on(events.NewMessage(pattern='^(?i)/taglar'))
+async def taglar(event):
+    await event.edit(buttons=(
+                      [
+                      Button.inline("◀️ Geri", data="utag")
+                      ]
+                    ),
+                    link_preview=False)
+
+@client.on(events.callbackquery.CallbackQuery(data="utag"))
+async def mentionall(event):
+  global gece_tag
+  if event.is_private:
+    return await event.respond(f"{noqrup}")
+
+  admins = []
+  async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
+    admins.append(admin.id)
+  if not event.sender_id in admins:
+    return await event.respond(f"{noadmin}")
+
+  if event.pattern_match.group(1):
+    mode = "text_on_cmd"
+    msg = event.pattern_match.group(1)
+  elif event.reply_to_msg_id:
+    mode = "text_on_reply"
+    msg = event.reply_to_msg_id
+    if msg == None:
+        return await event.respond("__Eski mesajları göremiyorum! (bu mesaj beni gruba eklemeden önce yazılmış)__")
+  elif event.pattern_match.group(1) and event.reply_to_msg_id:
+    return await event.respond("__Etiketleme mesajı yazmadın!__")
+  else:
+    return await event.respond("__Etiketleme için bir mesajı yanıtlayın veya bir mesaj yazın!__")
+
+  if mode == "text_on_cmd":
+    await client.send_message(event.chat_id, "❄️ Üye etiketleme başladı\n⏱️ İnterval - 2 saniye",
+                    buttons=(
+                      [
+                      Button.url('📣 Support', f'https://t.me/{support}')
+                      ]
+                    )
+                  ) 
+    gece_tag.append(event.chat_id)
+    usrnum = 0
+    usrtxt = ""
+    async for usr in client.iter_participants(event.chat_id):
+      usrnum += 1
+      usrtxt += f"➢ [{usr.first_name}](tg://user?id={usr.id})\n "
+      if event.chat_id not in gece_tag:
+        await event.respond("⛔ Üye etiketleme işlemi durduruldu",
+                    buttons=(
+                      [
+                       Button.url('📣 Support', f'https://t.me/{support}')
+                      ]
+                    )
+                  )
+        return
+      if usrnum == 5:
+        await client.send_message(event.chat_id, f"{usrtxt} {msg}")
+        await asyncio.sleep(2)
+        usrnum = 0
+        usrtxt = ""
+
+
 # 5 li etiketleme modulü
 @client.on(events.NewMessage(pattern="^/utag ?(.*)"))
 async def mentionall(event):
