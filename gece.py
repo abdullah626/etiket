@@ -42,7 +42,7 @@ async def start(event):
                       [Button.url('📣 Support', f'https://t.me/{support}'),
                        Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
                     ),
-                    link_preview=False)
+                    link_preview=True)
 
 
   if event.is_group:
@@ -61,7 +61,7 @@ async def handler(event):
                       [Button.url('📣 Support', f'https://t.me/{support}'),
                        Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
                     ),
-                    link_preview=False)
+                    link_preview=True)
 
 # gece kusu
 @client.on(events.callbackquery.CallbackQuery(data="komutlar"))
@@ -71,7 +71,7 @@ async def handler(event):
                       Button.inline("◀️ Geri", data="start")
                       ]
                     ),
-                    link_preview=False)
+                    link_preview=True)
 
 
 @client.on(events.NewMessage(pattern='^(?i)/taglar'))
@@ -81,7 +81,7 @@ async def taglar(event):
                       Button.inline("◀️ Geri", data="utag")
                       ]
                     ),
-                    link_preview=False)
+                    link_preview=True)
 
 @client.on(events.callbackquery.CallbackQuery(data="utag"))
 async def handler(event):
