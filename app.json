@@ -12,23 +12,23 @@
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
-         "value": ""
+         "value": "5102042096:AAEEU9HlOra6CFKqvHnNmemSH8sxo3qWOWE"
       },
       "APP_ID": {
          "description": "my.telegram.org adresindən APP ID alın.",
-         "value": ""
+         "value": "18721675"
       },
       "API_HASH": {
          "description": "my.telegram.org adresindən API HASH alın",
-         "value": ""
+         "value": "168152fe87d971c45fba6f1b3f2f2802"
       },    
       "LOG_QRUP": {
          "description": "log grubun id si",
-         "value": ""
+         "value": "-1001798248422"
       },
       "USERNAME": {
          "description": "Botun kullanıcı adı yazınız @ işareti olmadan",
-         "value": ""
+         "value": "kelimetahminibot"
       },
       "sahib": {
          "description": "Kendi kullanıcı adınızı yazınız @ işareti olmadan",
